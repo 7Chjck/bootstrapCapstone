@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diner</title>
+    <!-- Font GG  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- GG iCON  -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+
+    <!-- Font AWS CSS  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+
+    <!-- Magnific Popup core CSS -->
+    <link rel="stylesheet" href="./css/magnific-popup.css">
+
+    <!-- owl css  -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+ 
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body id="myBody">
+    <!-- header  -->
+    <header>
+      <div class="container">
+        <div class="header">
+          <div class="header__logo">
+            <h1>
+              <a class="logo" href="./index.html">Diner</a>
+            </h1>
+          </div>
+          <div class="header__content">
+            <div class="header__search">
+              <form action="">
+                <input
+                  type="search"
+                  name=""
+                  id=""
+                  placeholder="Search here.."
+                />
+                <a href="#"><i class="fa fa-search search__icon"></i></a>
+              </form>
+            </div>
+            <div class="header__switch">
+              <div class="themeswitch">
+                <button
+                  class="btn"
+                  id="switchButton"
+                  title="Click to switch theme"
+                >
+                  <span class="material-symbols-outlined gg-moon">
+                    dark_mode
+                  </span>
+                  <span class="material-symbols-outlined gg-sun">
+                    clear_day
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="header__button">
+              <button id="trigger-overlay" type="button">
+                <i class="fa fa-bars"></i>
+              </button>
+            </div>
+          </div>
+          <div
+            id="overlay" class="overlay overlay-scale" 
+          >
+            <button id="overlay-close" type="button" class="overlay-close" >
+              <i class="fa fa-times"></i>
+            </button>
+            <nav class="menuheader" >
+              <ul>
+                <li><a href="./index.html"> Home </a></li>
+                <li><a href="./index.html"> About </a></li>
+                <li><a href="./index.html"> Services </a></li>
+                <li><a href="./index.html"> Blog Post </a></li>
+                <li><a href="./index.html"> 404 page </a></li>
+                <li><a href="./index.html"> Elements </a></li>
+                <li><a href="./index.html"> Contact </a></li>
+                <li><a href="./index.html"> Landing page </a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- carousel  -->
+    <section class="dinercarousel">
+      <div class="banner">
+        <div class="carousel__banner container">
+          <div class="carousel__info">
+            <h3 class="mb-4">
+              The Only Thing We Love More Than Food Is You!
+            </h3>
+            <p class="pr-lg-5 mt-md-4 mt-3">
+              Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi
+              vitae sit.Ea ipsum sed consequuntur illum facere.
+            </p>
+            <button class="btn btn-white mt-sm-5 mt-4 mr-2">Read More <i class="fa fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+      </div>
+        
+    </section>
+    <!-- about us  -->
+    <section class="aboutUs">
+      <div class="container py-md-5">
+        <div class="row">
+          <div class="aboutUs__right col-lg-5">
+            <div class="aboutUs__info">
+              <h6>About Us</h6>
+              <h3>We found our creative space that is open for you.</h3>
+            </div>
+          </div>
+          <div class=" aboutUs__left col-lg-7 pl-lg-5 mt-lg-0 mt-3">
+            <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet elit. Non quae, fugiat nihil ad. Lorem ipsum dolor sit amet. Lorem ipsum init dolor sit, amet elit. Dolor ipsum non velit, culpa!Lorem ipsum init dolor sit.</p>
+            <p class="mt-3">
+              Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet elit. Non quae, fugiat nihil ad. Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about  -->
+    <section>
+      <div class="about">
+        <div class="container-fluid px-lg-0">
+          <div class="row about__content align-items-center  no-gutters">
+            <div class="col-lg-6 px-lg-0 pt-lg-0 pt-5 ">
+              
+              <div class="about__img ">
+              </div>
+            </div>
+            <div class="about__right col-lg-6 px-lg-4 pt-lg-3 py-4   ">
+              <div class="about__info p-md-5 p-3">
+                <h6>More than 3000 Restaurants</h6>
+                <h3>Book a table easly at the best price</h3>
+                <p class="my-3 mx-0">Vestibulum ante ipsum primis in faucibus orci luctus turpis sodales quis. Integer sit amet mattis quam.Vivamus a ligula quam tesque et libero ut justo ultrices in.</p>
+                <div class="row about__icon mt-5  ">
+                  <div class="iconleft col-6">
+                    <div class="icon mb-4">
+                      <span><i class="fa fa-thumbs-up"></i></span>
+                    </div>
+                    <a class="icontitle" href="#">Best Deals</a>
+                    <p class="mt-2 ml-0">Lorem ipsum viverra feugiat. Pellen tesque libero justo.</p>
+                  </div>
+                  <div class="iconright col-6">
+                    <div class="icon mb-4">
+                      <span><i class="fa fa-cutlery" aria-hidden="true"></i></span>
+                    </div>
+                    <a class="icontitle" href="#">Best Food</a>
+                    <p class="mt-2 ml-0">Lorem ipsum viverra feugiat. Pellen tesque libero justo.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- new  -->
+    <section class="new py-5">
+      <div class="container py-2">
+        <div class="new__title text-center">
+          <h6>What's New</h6>
+          <h3>Popular Categories</h3>
+        </div>
+        <div class="row new__menu  justify-content-center">
+          <div class="col-6  col-lg-4  mt-4">
+            <div class="new__img">
+              <a href="#"><img src="./img/g1.jpg" class="img img-fluid" alt="new1"></a>
+            </div>
+            <div class="new__info">
+              <a href="#">
+                <h4>Vegetarian</h4>
+              </a>
+              <h6>$350</h6>
+            </div>
+          </div>
+          <div class="col-6  col-lg-4 mt-4">
+            <div class="new__img">
+              <a href="#"><img src="./img/g2.jpg" class="img img-fluid" alt="new2"></a>
+            </div>
+            <div class="new__info">
+              <a href="#">
+                <h4>Drink</h4>
+              </a>
+              <h6>$550</h6>
+            </div>
+          </div>
+          <div class="col-6  col-lg-4 mt-4">
+            <div class="new__img">
+              <a href="#"><img src="./img/g3.jpg" class="img img-fluid" alt="new3"></a>
+            </div>
+            <div class="new__info">
+              <a href="#">
+                <h4>Lunch</h4>
+              </a>
+              <h6>$650</h6>
+            </div>
+          </div>
+          <div class="col-6  col-lg-4 mt-4">
+            <div class="new__img">
+              <a href="#"><img src="./img/g4.jpg" class="img img-fluid" alt="new4"></a>
+            </div>
+            <div class="new__info">
+              <a href="#">
+                <h4>Bakery</h4>
+              </a>
+              <h6>$550</h6>
+            </div>
+          </div>
+          <div class="col-6  col-lg-4 mt-4">
+            <div class="new__img">
+              <a href="#"><img src="./img/g5.jpg" class="img img-fluid" alt="new5"></a>
+            </div>
+            <div class="new__info">
+              <a href="#">
+                <h4>Desserts</h4>
+              </a>
+              <h6>$750</h6>
+            </div>
+          </div>
+          <div class="col-6  col-lg-4 mt-4">
+            <div class="new__img">
+              <a href="#"><img src="./img/g6.jpg" class="img img-fluid" alt="new6"></a>
+            </div>
+            <div class="new__info">
+              <a href="#">
+                <h4>Pizza</h4>
+              </a>
+              <h6>$850</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services  -->
+    <section class="services py-5">
+      <div class="container py-5">
+        <div class="row  justify-content-center">
+          <div class="col- col-md-6 col-lg-4  ">
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="icon1">
+                  <i class="fa fa-users"></i>
+                </div>
+                <div class="info">
+                  <p>01</p>
+                  <h4><a href="#">Soup</a></h4>
+                </div>
+              </div>
+              <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+            </div>
+          </div>
+          <div class="col- col-md-6 col-lg-4  ">
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="icon1">
+                  <i class="fa fa-shield-alt"></i>
+                </div>
+                <div class="info">
+                  <p>02</p>
+                  <h4><a href="#">Drinks</a></h4>
+                </div>
+              </div>
+              <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+            </div>
+          </div>
+          <div class="col- col-md-6 col-lg-4  ">
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="icon1">
+                  <i class="fa fa-thermometer-full" aria-hidden="true"></i>
+                </div>
+                <div class="info">
+                  <p>03</p>
+                  <h4><a href="#">Pizza</a></h4>
+                </div>
+              </div>
+              <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+            </div>
+          </div>
+          <div class="col- col-md-6 col-lg-4  ">
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="icon1">
+                  <i class="fa fa-american-sign-language-interpreting"></i>
+                </div>
+                <div class="info">
+                  <p>04</p>
+                  <h4><a href="#">Breakfast</a></h4>
+                </div>
+              </div>
+              <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+            </div>
+          </div>
+          <div class="col- col-md-6 col-lg-4  ">
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="icon1">
+                  <i class="fa fa-paint-brush"></i>
+                </div>
+                <div class="info">
+                  <p>05</p>
+                  <h4><a href="#">Lunch</a></h4>
+                </div>
+              </div>
+              <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+            </div>
+          </div>
+          <div class="col- col-md-6 col-lg-4  ">
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="icon1">
+                  <i class="fa fa-eraser" aria-hidden="true"></i>
+                </div>
+                <div class="info">
+                  <p>06</p>
+                  <h4><a href="#">Dinner</a></h4>
+                </div>
+              </div>
+              <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- middle  -->
+      <div class="middle py-5">
+        <div class="container pt-lg-2 pb-lg-4 py-4">
+          <div class="welcome-left text-center py-lg-5">
+            <h3 class="hny-title px-lg-5">Deliciousness jumping into the mouth.</h3>
+            <div class="middle-buttons pb-lg-5">
+              <button class="btn btn-white mt-sm-5 mt-4 mr-2">Read More 
+                <i class="fa fa-chevron-right"></i>
+              </button>
+              <button class="btn btn-style btn-primary mt-sm-5 mt-4">Contact Us  <i class="fa fa-chevron-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="w3_stats py-lg-0 py-md-5 py-4">
+        <div class="container HPStats">
+          <div class="row justify-content-center">
+            <div class="col-md-3 col-6 mt-md-0 mt-4">
+              <div class="counter">
+                <span class="fa fa-building-o"></span>
+                <div class="timer count-title count-number mt-3" data-to="15100" data-speed="1500">15,100</div>
+                <p class="count-text">Branches</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 mt-md-0 mt-4">
+              <div class="counter">
+                <span class="fa fa-cutlery"></span>
+                <div class="timer count-title count-number mt-3" data-to="19256" data-speed="1500">19,256</div>
+                <p class="count-text">Food Items</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 mt-md-0 mt-4">
+              <div class="counter">
+                <span class="fa fa-users"></span>
+                <div class="timer count-title count-number mt-3" data-to="12100" data-speed="1500">12,100</div>
+                <p class="count-text">Chefs</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 mt-md-0 mt-4">
+              <div class="counter">
+                <span class="fa fa-smile-o"></span>
+                <div class="timer count-title count-number mt-3" data-to="2560" data-speed="1500">2,560</div>
+                <p class="count-text">Happy Customers</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- video  -->
+      <section class="w3l-videohny" id="video">
+        <div class="new-block py-5">
+          <div class="container py-lg-5 HomePageVideoPopup">
+            <div class="history-info position-relative">
+              <a href="https://player.vimeo.com/video/305185528" class="popup-with-zoom-anim btn-play video-play text-center pl-3">
+                <span class="video-play-icon"><span class="fa fa-play"></span></span>
+              </a>
+            </div>
+            <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+              <iframe src="https://player.vimeo.com/video/305185528" frameborder="0" allow="autoplay;fullscreen" allowfullscreen="" ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- blog  -->
+      <section class="w3l-blogposts py-5" id="blogs">
+        <div class="container py-md-5 py-2 HomePageBlog">
+          <div class="header-title text-center">
+            <h6 class="title-subhny">Latest Posts</h6>
+            <h3 class="title-w3l"> Blog Posts</h3>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 item mt-5">
+              <div class="card">
+                <div class="card-header p-0 position-relative">
+                  <a href="#"><div class="post-thumbnail">
+                    <img  src="./img/g1.jpg" alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image">
+                  </div></a>
+                  <div class="post-pos">
+                    <a href="#">Drinks</a>
+                  </div>
+                </div>
+                <div class="card-body p-0 blog-details">
+                  <a href="#" class="blog-desc">Hello world!</a>
+                  <div class="p-footer mt-3">
+                    <div class="p-meta-info">
+                      <a href="#" class="post-img-anchor"><img src="./img/w3.jpeg" class="post-img radius-img img-fluid" alt=""></a>
+                      <a href="#" class="url fn n">W3Layouts</a>
+                    </div>
+                    <a href="#" class="read">Read More <span class="fa fa-chevron-right ml-2"></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 item mt-5">
+              <div class="card">
+                <div class="card-header p-0 position-relative">
+                  <a href="#">
+                    <div class="post-thumbnail">
+                      <img  src="./img/g7.jpg" alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image">
+                    </div>
+                  </a>
+                  <div class="post-pos">
+                    <a href="#">Drinks</a>
+                  </div>
+                </div>
+                <div class="card-body p-0 blog-details">
+                  <a href="#" class="blog-desc">The Best Cookie Recipes To Bake This Weekend</a>
+                  <div class="p-footer mt-3">
+                    <div class="p-meta-info">
+                      <a href="#" class="post-img-anchor">
+                        <img src="./img/w3.jpeg" alt="" class="post-img radius-img img-fluid">
+                      </a>
+                      <a href="#" class="url fn n">W3Layouts</a>
+                    </div>
+                    <a href="#" class="read">Read More <span class="fa fa-chevron-right ml-2"></span></a>
+                  </div>
+                </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 item mt-5">
+              <div class="card">
+                <div class="card-header p-0 position-relative">
+                  <a href="#">
+                    <div class="post-thumbnail">
+                      <img  src="./img/g5.jpg" alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image">
+                    </div>
+                  </a>
+                  <div class="post-pos">
+                    <a href="#">Food</a>
+                  </div>
+                </div>
+                <div class="card-body p-0 blog-details">
+                  <a href="#" class="blog-desc">The Best Cookie Recipes To Bake This Weekend</a>
+                  <div class="p-footer mt-3">
+                    <div class="p-meta-info">
+                      <a href="#" class="post-img-anchor">
+                        <img src="./img/w3.jpeg" alt="" class="post-img radius-img img-fluid">
+                      </a>
+                      <a href="#" class="url fn n">W3Layouts</a>
+                    </div>
+                    <a href="#" class="read">Read More <span class="fa fa-chevron-right ml-2"></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- testimonials -->
+      <section class="w3l-clients w3l-agency-test" id="testimonials">
+        <div class="midd-w3 py-5">
+          <div class="container py-lg-5 py-md-3 HomePageTestimonials">
+            <div class="header-title text-center">
+              <h6 class="title-subhny">Testimonials</h6>
+              <h3 class="title-w3l mb-5">What People Say</h3>
+            </div>
+            <div class="owl-carousel owl-theme py-2 mb-4 text-center owl-loaded owl-drag" id="owl-agency">
+              <div class="owl-stage-outer mb-4">
+                <div class="owl-stage" style="transform: translate3d(-2440px, 0px, 0px); transition: all 0.25s ease 0s; width: 9760px;">
+                  <div class="owl-item " style="width: 1170px; margin-right: 50px;">
+                    <div class="item">
+                      <div class="testimonial-content">
+                        <div class="testimonial">
+                          <a href="#" class="comment-img">
+                            <img src="./img/team1.jpg" alt="" class="img-responsive" alt="placeholder image">
+                          </a>
+                          <span class="fa fa-quote-left"></span>
+                          <blockquote>
+                            <q>
+                              OMG! I cannot believe. It's Awesome
+                            </q>
+                          </blockquote>
+                          <p>My new site is so much faster and easier to work with than my old site. They are here to
+                            help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+                            Pellen tesque libero ut justo, ultrices in ligula.
+                          </p>
+                          <div class="text-center mt-4">
+                            <div class="people-info align-self">
+                              <h3>John wilson</h3>
+                              <p class="indentity text-center">Customer</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="owl-item " style="width: 1170px; margin-right: 50px;">
+                    <div class="item">
+                      <div class="testimonial-content">
+                        <div class="testimonial">
+                          <a href="#" class="comment-img">
+                            <img src="./img/team2.jpg" alt="" class="img-responsive" alt="placeholder image">
+                          </a>
+                          <span class="fa fa-quote-left"></span>
+                          <blockquote>
+                            <q>
+                              Simply the best. Better than all the rest.
+                            </q>
+                          </blockquote>
+                          <p>My new site is so much faster and easier to work with than my old site. They are here to
+                            help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+                            Pellen tesque libero ut justo, ultrices in ligula.
+                          </p>
+                          <div class="text-center mt-4">
+                            <div class="people-info align-self">
+                              <h3>Alexander sakura</h3>
+                              <p class="indentity text-center">Customer</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="owl-item " style="width: 1170px; margin-right: 50px;">
+                    <div class="item">
+                      <div class="testimonial-content">
+                        <div class="testimonial">
+                          <a href="#" class="comment-img">
+                            <img src="./img/team3.jpg" alt="" class="img-responsive" alt="placeholder image">
+                          </a>
+                          <span class="fa fa-quote-left"></span>
+                          <blockquote>
+                            <q>
+                              OMG! I cannot believe. It's Awesome
+                            </q>
+                          </blockquote>
+                          <p>My new site is so much faster and easier to work with than my old site. They are here to
+                            help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+                            Pellen tesque libero ut justo, ultrices in ligula.
+                          </p>
+                          <div class="text-center mt-4">
+                            <div class="people-info align-self">
+                              <h3>John wilson</h3>
+                              <p class="indentity text-center">Customer</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 
+                  <div class="owl-item " style="width: 1170px; margin-right: 50px;">
+                    <div class="item">
+                      <div class="testimonial-content">
+                        <div class="testimonial">
+                          <a href="#" class="comment-img">
+                            <img src="./img/team2.jpg" alt="" class="img-responsive" alt="placeholder image">
+                          </a>
+                          <span class="fa fa-quote-left"></span>
+                          <blockquote>
+                            <q>
+                              OMG! I cannot believe. It's Awesome
+                            </q>
+                          </blockquote>
+                          <p>My new site is so much faster and easier to work with than my old site. They are here to
+                            help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+                            Pellen tesque libero ut justo, ultrices in ligula.
+                          </p>
+                          <div class="text-center mt-4">
+                            <div class="people-info align-self">
+                              <h3>Julia sakura</h3>
+                              <p class="indentity text-center">Customer</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+
+                </div>
+              </div>
+             
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- footer  -->
+      <footer>
+        <section class="w3l-footer-29-main">
+          <div class="footer-29 py-5">
+            <div class="container py-lg-4 DinerFooter">
+              <div class="row footer-top-29">
+                <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-1 pr-lg-5">
+                  <div class="footer-logo mb-3">
+                    <h2>
+                      <a href="#" class="navbar-brand">Diner</a>
+                    </h2>
+                  </div>
+                  <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet Semper at elit.</p>
+                  <div class="main-social-footer-29 mt-4 FooterSocial">
+                    <a href="#" class="facebook">
+                      <span class="fa fa-facebook"></span>
+                    </a>
+                    <a href="#" class="twitter">
+                      <span class="fa fa-twitter"></span>
+                    </a>
+                    <a href="#" class="instagram">
+                      <span class="fa fa-instagram"></span>
+                    </a>
+                    <a href="#" class="linkedin">
+                      <span class="fa fa-linkedin"></span>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list-29 footer-2 mt-sm-0 mt-5">
+                  <div class="widget_categories" id="categories-4">
+                    <h6 class="footer-title-29">Categories</h6>
+                    <ul>
+                      <li class="cat-item cat-item-2">
+                        <a href="#">Drinks</a>
+                      </li>
+                      <li class="cat-item cat-item-3">
+                        <a href="#">Food</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list-29 footer-3 mt-lg-0 mt-5">
+                  <div class="widget_archive">
+                    <h6 class="footer-title-29">Archives</h6>
+                    <ul>
+                      <li>
+                        <a href="#">March 2021</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-4 mt-lg-0 mt-5 FooterSubscribe">
+                  <h6 class="footer-title-29">Subscribe to our Newsletter </h6>
+                  <p>Enter your email and receive the latest news, updates and special offers from us.</p>
+                  <form action="" method="post" class="subscribe mt-4">
+                    <input type="email" name="Email" id="" placeholder="Your Email Address">
+                    <button class="btn btn-style btn-primary w-100 mt-3">Subscribe Now</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="w3l-copyright">
+          <div class="container">
+            <div class="row bottom-copies">
+              <p class="col-lg-8 copy-footer-29 CopyRights">
+                © 2023 Diner. All Rights Reserved | WordPress Theme by
+                <a href="#">W3Layouts.</a>
+              </p>
+              <div class="col-lg-4 footer-list-29"></div>
+            </div>
+          </div>
+          <!-- backtotop  -->
+          <a href="#" class="backtotop  cd-top text-replace js-cd-top"> 
+            <span class="fa fa-angle-up"></span>
+        </a>
+        </section>
+      </footer>
+      
+     
+      
+
+    
+  </body>
+
+  <!-- JQuery JS  -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+
+  <!-- Bootstrap JS  -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"
+  ></script>
+  <!-- dakr theme JS  -->
+  <script>
+    /**
+  Solution: 
+  Khi click vào nút moon 🌙 , thẻ body sẽ được thêm class dark.
+  Dựa vào class dark, ta viết css dành riêng cho dark theme.
+
+  Ngược lại, khi click vào nút sun ☀️, ta sẽ xóa class dark để css light theme hiện lại
+
+  */
+
+    //gọi thẻ button có id là switchButton
+    // gắn chức năng click cho switchButton
+    /**
+  Solution: 
+  Khi click vào nút moon 🌙 , thẻ body sẽ được thêm class dark.
+  Dựa vào class dark, ta viết css dành riêng cho dark theme.
+
+  Ngược lại, khi click vào nút sun ☀️, ta sẽ xóa class dark để css light theme hiện lại
+
+  */
+
+    //gọi thẻ button có id là switchButton
+    // gắn chức năng click cho switchButton
+    document.getElementById("switchButton").onclick = function () {
+      //khi button được click thì tìm đến thẻ body có id là myBody
+      // dùng classlist để gọi thuộc tính class của thẻ body
+      //Sử dụng toggle() để thêm hoặc xóa 1 class của thẻ html. Nếu thẻ body không có class dark thì toggle sẽ thêm class dark vào body. Ngược lại, nếu thẻ body đang có class dark thì toogle sẽ xóa class dark đi.
+      document.getElementById("myBody").classList.toggle("dark");
+    };
+  </script>
+  <script>
+     document.getElementById("trigger-overlay").onclick = function () {
+
+      document.getElementById("overlay").classList.toggle("open");
+    };
+  </script>
+  <script>
+    document.getElementById("overlay-close").onclick = function () {
+
+     document.getElementById("overlay").classList.toggle("open");
+   };
+ </script>
+ <!-- Count Up  -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <script src="./js/jquery.countup.min.js"></script>
+
+ <script src="/path/to/jquery.waypoints.min.js"></script>
+
+
+ <script>
+  
+  $('.timer').countUp({
+
+  'time': 2000,
+
+  'delay': 10
+
+  });
+
+ </script>
+
+ <!-- Magnific Popup JS -->
+
+ <script src="./js/jquery.magnific-popup.min.js"></script>
+ <script>
+  $(document).ready(function () {
+    $(".video-play").magnificPopup({
+      disableOn: 700,
+      type: "iframe",
+      mainClass: "mfp-fade",
+      removalDelay: 160,
+      preloader: false,
+      fixedContentPos: false,
+      iframe: {
+        patterns: {
+          vimeo: {
+            index: "vimeo.com/",
+            id: "/",
+            src: "https://player.vimeo.com/video/101587706",
+          },
+        },
+
+        srcAction: "iframe_src", // Templating object key. First part defines CSS selector, second attribute. "iframe_src" means: find "iframe" and set attribute "src".
+      },
+    });
+  });
+</script>
+ <!-- owl js  -->
+ <script src="./js/owl.carousel.min.js"></script>
+ <script>
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+    }
+})
+ </script>
+ <!-- backtotop  -->
+ <script src="./js/util.js"></script>
+ <script src="./js/bttop.js"></script>
+ 
+  
+</html>
